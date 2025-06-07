@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite & npx json-server --watch --port 4000 db/file.json",
+    "dev": "vite",
+    "json:dev": "npx json-server --watch --port 4000 db/file.json",
     "build": "vite build",
     "preview": "vite preview"
   },
