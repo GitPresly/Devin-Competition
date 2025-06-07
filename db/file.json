@@ -1,0 +1,69 @@
+{
+  "paintings": [
+    {
+      "id": 1,
+      "name": "Анихора",
+      "year": 1923,
+      "image": "anihora.jpg",
+      "image_2x": "anihora@2x.jpg",
+      "image_webp": "anihora.webp",
+      "image_2x_webp": "anihora@2x.webp",
+      "description": "‘Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.’"
+    },
+    {
+      "id": 2,
+      "name": "Обрущение",
+      "year": 1923,
+      "image": "obruzhenie.jpg",
+      "image_2x": "obruzhenie@2x.jpg",
+      "image_webp": "obruzhenie.webp",
+      "image_2x_webp": "obruzhenie@2x.webp",
+      "description": "Сцена на селянин и мома в ритуален миг от българския фолклор. Но зад романтиката се крие напрежение – Милев изследва социалните роли, традициите и тяхното разпадане в модерността."
+    },
+    {
+      "id": 3,
+      "name": "Нашите майки все в черно ходят",
+      "year": 1923,
+      "image": "nashite-mayki-vse-v-cherno-hodiat.jpg",
+      "image_2x": "nashite-mayki-vse-v-cherno-hodiat@2x.jpg",
+      "image_webp": "nashite-mayki-vse-v-cherno-hodiat.webp",
+      "image_2x_webp": "nashite-mayki-vse-v-cherno-hodiat@2x.webp",
+      "description": "Изключително емоционално платно – женски образи, облечени в черно, символи на скръбта, войната и загубата. Заглавието звучи почти като народна песен."
+    },
+    {
+      "id": 4,
+      "name": "Светогорска легенда",
+      "year": 1923,
+      "image": "svetogorska-legenda.jpg",
+      "image_2x": "svetogorska-legenda@2x.jpg",
+      "image_webp": "svetogorska-legenda.webp",
+      "image_2x_webp": "svetogorska-legenda@2x.webp",
+      "description": "Митологична сцена, вдъхновена от Света гора и православната традиция. Художникът съчетава християнска символика с езическа енергия в уникална духовна композиция."
+    },
+    {
+      "id": 5,
+      "name": "Разпятие",
+      "year": 1923,
+      "image": "razpyatie.jpg",
+      "image_2x": "razpyatie@2x.jpg",
+      "image_webp": "razpyatie.webp",
+      "image_2x_webp": "razpyatie@2x.webp",
+      "description": "Драматична интерпретация на Христовото разпятие с изцяло нова композиционна логика. Христос е представен не просто като религиозен символ, а като страдащ човек, близък до зрителя."
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "name": "Стандартен билет",
+      "price": 12,
+      "currency": "GBP"
+    },
+    {
+      "id": 2,
+      "name": "Студентски билет",
+      "price": 8,
+      "currency": "GBP"
+    }
+  ],
+  "purchases": []
+}
