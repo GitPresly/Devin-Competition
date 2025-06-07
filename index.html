@@ -11,7 +11,7 @@
 
 <body>
 
-
+  <!-- Mobile Navigation -->
   <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
     <span class="sr-only">Menu</span>
   </button>
@@ -28,7 +28,7 @@
     </ul>
   </nav>
 
-
+  <!-- Header -->
   <header class="site-header" id="home">
     <a href="#home"><img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого" class="logo"></a>
     <nav class="desktop-nav">
@@ -44,9 +44,10 @@
   </header>
 
   <main>
-
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-background-images">
+        <!-- These are the collage images from your design -->
         <div class="bg-img"
           style="--x: 10vw; --y: 15vh; --w: 25vw; background-image: url('/src/images/obruzhenie.jpg');"></div>
         <div class="bg-img"
@@ -69,6 +70,7 @@
       </div>
     </section>
 
+    <!-- About the Exhibition Section -->
     <section class="about-exhibition" id="about">
       <div class="content-wrapper">
         <h2>Защо тази изложба?</h2>
@@ -88,7 +90,7 @@
       </div>
     </section>
 
-
+    <!-- Artist Bio Section -->
     <section class="artist-bio" id="artist">
       <div class="content-wrapper bio-grid">
         <div class="artist-image-container">
@@ -111,7 +113,7 @@
       </div>
     </section>
 
-
+    <!-- Gallery Section (Dynamically Populated) -->
     <section class="gallery" id="gallery">
       <div class="content-wrapper">
         <div class="gallery-header">
@@ -119,28 +121,28 @@
           <p>Потопете се в света на Иван Милев – където образите говорят без думи. В изложбата ще видите едни от
             най-знаковите му творби, които резонират с теми като вяра, страдание, женска сила и идентичност.</p>
         </div>
-        <div class="gallery-grid" id="gallery-grid-container"></div>
+        <div class="gallery-grid" id="gallery-grid-container"><!-- JS will fill this --></div>
       </div>
     </section>
 
-
+    <!-- Quote Section -->
     <section class="quote-section">
       <blockquote>„Милев създава в периферията на Европа, но с централна чувствителност – неговите творби говорят за
         душата на Балканите със същата сила, с която Климт рисува Виена.“</blockquote>
     </section>
 
-
+    <!-- Tickets Section (Dynamically Populated) -->
     <section class="tickets-section" id="tickets-section">
       <div class="content-wrapper">
         <div class="tickets-header">
           <hr>
           <h2>купи билет</h2>
         </div>
-        <div class="ticket-options" id="ticket-options-container"></div>
+        <div class="ticket-options" id="ticket-options-container"><!-- JS will fill this --></div>
       </div>
     </section>
 
-
+    <!-- Info Section -->
     <section class="info-section">
       <div class="content-wrapper info-grid">
         <div>
@@ -163,7 +165,7 @@
     </section>
   </main>
 
-
+  <!-- Footer -->
   <footer class="site-footer-main">
     <div class="content-wrapper">
       <img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого" class="logo footer-logo">
@@ -188,10 +190,10 @@
     </div>
   </footer>
 
-
+  <!-- Ticket Modal (Dynamically Populated) -->
   <div class="modal-overlay" id="ticket-modal">
     <div class="modal-content">
-
+      <!-- Step 1: Choose Ticket -->
       <div class="modal-step" id="modal-step-1">
         <div class="modal-header">
           <div class="modal-title">
@@ -207,7 +209,7 @@
           <div class="ticket-options-modal" id="modal-ticket-options-container"><!-- JS will fill this --></div>
         </div>
       </div>
-
+      <!-- Step 2: Form -->
       <div class="modal-step" id="modal-step-2" style="display: none;">
         <div class="modal-header">
           <div class="modal-title">
@@ -233,7 +235,7 @@
           </form>
         </div>
       </div>
-
+      <!-- Step 3: Success -->
       <div class="modal-step" id="modal-step-3" style="display: none;">
         <div class="modal-header">
           <div class="modal-title">
@@ -253,7 +255,7 @@
           <div class="success-content">
             <h3>УСПЕШНА ПОКУПКА!</h3>
             <p>ВАШИЯТ БИЛЕТ</p>
-            <div class="qr-code-placeholder"></div>
+            <div class="qr-code-placeholder"><!-- QR Code would be generated here --></div>
             <div class="success-actions">
               <button class="cta-button-small">Свали билета</button>
               <button class="cta-button-outline" id="close-modal-btn">Затвори</button>
