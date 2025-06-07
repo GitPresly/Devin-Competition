@@ -13,9 +13,11 @@
 </head>
 
 <body>
+
   <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
     <span class="sr-only">Menu</span>
   </button>
+
   <nav class="mobile-nav" id="mobile-navigation">
     <div class="mobile-nav-header">
       <img src="/src/images/ivan-milev-logo-hor 3.png" alt="Иванъ Милевъ Лого" class="logo">
@@ -28,6 +30,7 @@
       <li><a href="#tickets-section" class="nav-buy-ticket-btn">Купи билет</a></li>
     </ul>
   </nav>
+
   <header class="site-header" id="home">
     <img src="/src/images/ivan-milev-logo-hor 3.png" alt="Иванъ Милевъ Лого" class="logo">
     <nav class="desktop-nav">
@@ -41,7 +44,9 @@
       <button class="cta-button buy-ticket-btn">Купи билет</button>
     </div>
   </header>
+
   <main>
+
     <section class="hero">
       <div class="hero-content">
         <div class="slogan">
@@ -52,6 +57,7 @@
         <p class="exhibition-info-small">ИЗЛОЖБА ИВАН МИЛЕВ // 1 ЮЛИ – 12 АВГУСТ 2025 // TATE MODERN, ЛОНДОН</p>
       </div>
     </section>
+
     <section class="about-exhibition" id="about">
       <div class="content-wrapper">
         <h2>Защо тази изложба?</h2>
@@ -70,8 +76,10 @@
         <button class="cta-button buy-ticket-btn">Купи билет</button>
       </div>
     </section>
+
     <section class="artist-bio" id="artist">
     </section>
+
     <section class="gallery" id="gallery">
       <div class="content-wrapper">
         <div class="gallery-header">
@@ -83,12 +91,14 @@
         </div>
       </div>
     </section>
+
     <section class="quote-section">
       <blockquote>
         „Милев създава в периферията на Европа, но с централна чувствителност – неговите творби говорят за душата на
         Балканите със същата сила, с която Климт рисува Виена.“
       </blockquote>
     </section>
+
     <section class="tickets-section" id="tickets-section">
       <div class="content-wrapper">
         <div class="tickets-header">
@@ -99,11 +109,15 @@
         </div>
       </div>
     </section>
+
     <section class="info-section">
     </section>
   </main>
+
   <footer class="site-footer-main">
   </footer>
+
+
   <div class="modal-overlay" id="ticket-modal">
     <div class="modal-content">
       <div class="modal-step" id="modal-step-1">
@@ -147,10 +161,25 @@
           </form>
         </div>
       </div>
-      <div class="modal-step" id="modal-step-3" style="display: none;">
+
+      <div class="modal-overlay" id="ticket-modal">
+        <div class="modal-content">
+
+          <div class="modal-step" id="modal-step-3" style="display: none;">
+
+            <div class="success-actions">
+              <button class="cta-button-small">Свали билета</button>
+
+              <button class="cta-button-outline" id="close-modal-btn">Затвори</button>
+
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
   </div>
+  
   <script type="module" src="/src/scripts/main.js"></script>
 </body>
 
