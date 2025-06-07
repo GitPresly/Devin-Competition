@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Иванъ Милевъ- Изкуството, което говори с тишина</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Иванъ Милевъ // Изложба в Tate Modern</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="stylesheet" href="/src/styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&display=swap"
-    rel="stylesheet">
 </head>
 
 <body>
 
+
   <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
     <span class="sr-only">Menu</span>
   </button>
-
   <nav class="mobile-nav" id="mobile-navigation">
     <div class="mobile-nav-header">
-      <img src="/src/images/ivan-milev-logo-hor 3.png" alt="Иванъ Милевъ Лого" class="logo">
+      <img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого" class="logo">
       <button class="mobile-nav-close">×</button>
     </div>
     <ul>
@@ -31,8 +28,9 @@
     </ul>
   </nav>
 
+
   <header class="site-header" id="home">
-    <img src="/src/images/ivan-milev-logo-hor 3.png" alt="Иванъ Милевъ Лого" class="logo">
+    <a href="#home"><img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого" class="logo"></a>
     <nav class="desktop-nav">
       <ul>
         <li><a href="#about">За изложбата</a></li>
@@ -48,10 +46,23 @@
   <main>
 
     <section class="hero">
+      <div class="hero-background-images">
+        <div class="bg-img"
+          style="--x: 10vw; --y: 15vh; --w: 25vw; background-image: url('/src/images/obruzhenie.jpg');"></div>
+        <div class="bg-img"
+          style="--x: 60vw; --y: 10vh; --w: 30vw; background-image: url('/src/images/razpyatie.jpg');"></div>
+        <div class="bg-img" style="--x: 5vw; --y: 55vh; --w: 28vw; background-image: url('/src/images/anihora.jpg');">
+        </div>
+        <div class="bg-img"
+          style="--x: 40vw; --y: 60vh; --w: 20vw; background-image: url('/src/images/svetogorska-legenda.jpg');"></div>
+        <div class="bg-img"
+          style="--x: 75vw; --y: 65vh; --w: 18vw; background-image: url('/src/images/nashite-mayki-vse-v-cherno-hodiat.jpg');">
+        </div>
+      </div>
       <div class="hero-content">
         <div class="slogan">
-          <img src="/src/images/Изкуство, което.png" alt="Изкуство, което">
-          <img src="/src/images/говори с тишина.png" alt="говори с тишина">
+          <img src="/src/images/slogan-1.png" alt="Изкуство, което">
+          <img src="/src/images/slogan-2.png" alt="говори с тишина">
         </div>
         <button class="cta-button buy-ticket-btn">Купи билет</button>
         <p class="exhibition-info-small">ИЗЛОЖБА ИВАН МИЛЕВ // 1 ЮЛИ – 12 АВГУСТ 2025 // TATE MODERN, ЛОНДОН</p>
@@ -77,8 +88,29 @@
       </div>
     </section>
 
+
     <section class="artist-bio" id="artist">
+      <div class="content-wrapper bio-grid">
+        <div class="artist-image-container">
+          <div class="image-placeholder artist-portrait"></div>
+          <img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ" class="artist-name-overlay">
+        </div>
+        <div class="artist-text">
+          <h3>КОЙ Е ИВАН МИЛЕВ?</h3>
+          <p><strong>Иван Милев (1897 – 1927) е един от най-ярките представители на българския модернизъм</strong> и
+            символизъм. Макар и с кратък творчески път, той оставя над 160 произведения – проникнати от дълбока
+            чувствителност, фолклорни мотиви и драматизъм.</p>
+          <p>Учи декоративно изкуство във Виена, вдъхновява се от сецесиона и източноправославната иконопис. Милев умира
+            едва на 30, но творчеството му остава завинаги – като визуална хроника на една цяла епоха.</p>
+          <p>Творчеството на Иван Милев се отличава с дълбок хуманизъм и национално самосъзнание. Той успява да въплъти
+            духа на следвоенна България – изпълнена с болка, надежда и търсене на идентичност. В неговите образи – често
+            жени, страдащи фигури или свети персонажи – се преплитат българският фолклор, модернистичният стил и личната
+            му емоционална дълбочина. Макар и животът му да е кратък, изкуството му надживява времето – и остава
+            актуално, разпознаваемо и дълбоко въздействащо до днес.</p>
+        </div>
+      </div>
     </section>
+
 
     <section class="gallery" id="gallery">
       <div class="content-wrapper">
@@ -87,17 +119,16 @@
           <p>Потопете се в света на Иван Милев – където образите говорят без думи. В изложбата ще видите едни от
             най-знаковите му творби, които резонират с теми като вяра, страдание, женска сила и идентичност.</p>
         </div>
-        <div class="gallery-grid" id="gallery-grid-container">
-        </div>
+        <div class="gallery-grid" id="gallery-grid-container"></div>
       </div>
     </section>
 
+
     <section class="quote-section">
-      <blockquote>
-        „Милев създава в периферията на Европа, но с централна чувствителност – неговите творби говорят за душата на
-        Балканите със същата сила, с която Климт рисува Виена.“
-      </blockquote>
+      <blockquote>„Милев създава в периферията на Европа, но с централна чувствителност – неговите творби говорят за
+        душата на Балканите със същата сила, с която Климт рисува Виена.“</blockquote>
     </section>
+
 
     <section class="tickets-section" id="tickets-section">
       <div class="content-wrapper">
@@ -105,21 +136,62 @@
           <hr>
           <h2>купи билет</h2>
         </div>
-        <div class="ticket-options" id="ticket-options-container">
-        </div>
+        <div class="ticket-options" id="ticket-options-container"></div>
       </div>
     </section>
 
+
     <section class="info-section">
+      <div class="content-wrapper info-grid">
+        <div>
+          <h5>Адрес:</h5>
+          <p>TATE Modern, <br> Bankside, London SE1 9TG</p>
+        </div>
+        <div>
+          <h5>Работно време:</h5>
+          <p>Пон–Нед: 10:00 – 18:00 ч.</p>
+        </div>
+        <div>
+          <h5>С транспорт:</h5>
+          <p>Метро: St. Paul's или Southwark <br> Автобуси: 45, 63, 100</p>
+        </div>
+        <div>
+          <h5>С колело:</h5>
+          <p>Има стойки за велосипеди <br> Достъпно за хора с увреждания</p>
+        </div>
+      </div>
     </section>
   </main>
 
+
   <footer class="site-footer-main">
+    <div class="content-wrapper">
+      <img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого" class="logo footer-logo">
+      <div class="sponsors">
+        <h6>СПОНСОРИ И ПАРТНЬОРИ</h6>
+        <div class="sponsor-logos">
+          <img src="/src/images/logo-ivan-milev.png" alt="Иванъ Милевъ Лого">
+          <img src="/src/images/logo-tate.png" alt="Tate Logo">
+          <img src="/src/images/logo-sponsor-1.png" alt="Sponsor Logo 1">
+          <img src="/src/images/logo-sponsor-2.png" alt="Sponsor Logo 2">
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Иван Милев & TATE</span>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><img src="/src/images/icon-instagram.png" alt="Instagram"></a>
+          <a href="#" aria-label="TikTok"><img src="/src/images/icon-tiktok.png" alt="TikTok"></a>
+          <a href="#" aria-label="YouTube"><img src="/src/images/icon-youtube.png" alt="YouTube"></a>
+        </div>
+        <a href="mailto:info@ivanmilev-exhibition.com">info@ivanmilev-exhibition.com</a>
+      </div>
+    </div>
   </footer>
 
 
   <div class="modal-overlay" id="ticket-modal">
     <div class="modal-content">
+
       <div class="modal-step" id="modal-step-1">
         <div class="modal-header">
           <div class="modal-title">
@@ -128,14 +200,14 @@
               <hr><span>12.08</span>
             </div>
           </div>
-          <div class="slogan"><img src="/src/images/Изкуство, което.png" alt="Изкуство, което"><img
-              src="/src/images/говори с тишина.png" alt="говори с тишина"></div>
+          <div class="slogan"><img src="/src/images/slogan-1.png" alt="Изкуство, което"><img
+              src="/src/images/slogan-2.png" alt="говори с тишина"></div>
         </div>
         <div class="modal-body">
-          <div class="ticket-options-modal" id="modal-ticket-options-container">
-          </div>
+          <div class="ticket-options-modal" id="modal-ticket-options-container"><!-- JS will fill this --></div>
         </div>
       </div>
+
       <div class="modal-step" id="modal-step-2" style="display: none;">
         <div class="modal-header">
           <div class="modal-title">
@@ -144,8 +216,8 @@
               <hr><span>12.08</span>
             </div>
           </div>
-          <div class="slogan"><img src="/src/images/Изкуство, което.png" alt="Изкуство, което"><img
-              src="/src/images/говори с тишина.png" alt="говори с тишина"></div>
+          <div class="slogan"><img src="/src/images/slogan-1.png" alt="Изкуство, което"><img
+              src="/src/images/slogan-2.png" alt="говори с тишина"></div>
         </div>
         <div class="modal-body">
           <div class="ticket-info">
@@ -162,24 +234,36 @@
         </div>
       </div>
 
-      <div class="modal-overlay" id="ticket-modal">
-        <div class="modal-content">
-
-          <div class="modal-step" id="modal-step-3" style="display: none;">
-
+      <div class="modal-step" id="modal-step-3" style="display: none;">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>Купи <br>Билет</h2>
+            <div class="date-range"><span>01.07</span>
+              <hr><span>12.08</span>
+            </div>
+          </div>
+          <div class="slogan"><img src="/src/images/slogan-1.png" alt="Изкуство, което"><img
+              src="/src/images/slogan-2.png" alt="говори с тишина"></div>
+        </div>
+        <div class="modal-body success-body">
+          <div class="ticket-info">
+            <p>ИЗЛОЖБА ИВАН МИЛЕВ // <br> 1 ЮЛИ – 12 АВГУСТ 2025 // <br> TATE MODERN, ЛОНДОН</p><span class="price"
+              id="success-ticket-price"></span>
+          </div>
+          <div class="success-content">
+            <h3>УСПЕШНА ПОКУПКА!</h3>
+            <p>ВАШИЯТ БИЛЕТ</p>
+            <div class="qr-code-placeholder"></div>
             <div class="success-actions">
               <button class="cta-button-small">Свали билета</button>
-
               <button class="cta-button-outline" id="close-modal-btn">Затвори</button>
-
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
-  
+
   <script type="module" src="/src/scripts/main.js"></script>
 </body>
 
